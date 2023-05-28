@@ -20,26 +20,30 @@ console.log(x);
 
 
 let res=7 % 2;
-console.log ('res = ${res} ');
+console.log (`res = ${res} `);
 
 res=true +5;
-console.log ('res = ${res}');
+console.log (`res = ${res}`);
 
 x = '2' === 2;
-console.log ('x = &{x}');
+console.log ( ` x = ${x}`);
 
-res=+'5';
+x = '2' == 2 ;
+console.log (`x = ${x}`);
+
+res=+'15';
+
  
 
 switch (res) {
     case 5:
-        console.log ('number: ${res}');
+        console.log (`number: ${res}`);
         break;
     case '5':
-        console.log ('number: ${res}');
+        console.log (`number: ${res}`);
         break;
 
     default:
-        break;
+      console.log('Not a 5');
 }
 
